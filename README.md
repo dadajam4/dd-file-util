@@ -48,3 +48,9 @@ type: 0 -> 全て, 1 -> ファイルのみ, 2 -> ディレクトリのみ
 
 * **param** (`string`) - dirPath
 * **return** (`Array`) - result.
+
+### getPathList
+指定のディレクトリ直下の全てのパス一覧を規定のオブジェクト形式のリストで取得（再帰）
+
+* **param** (`string`) - dirPath
+* **return** (`Array`) - [{dir: ディレクトリ, filename: ファイル名, filepath: パス},...]
